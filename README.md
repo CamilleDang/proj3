@@ -54,3 +54,8 @@ Complete for both images:
 
 # Part 3. The Morph Sequence
 
+
+# Part 4. The "Mean face" of a population
+
+# Part 5. 
+
