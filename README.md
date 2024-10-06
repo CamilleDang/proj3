@@ -119,11 +119,10 @@ I created caricatures of my face by using my previous morph function, and adjust
 
 # Part 6. Bells and Whistles
 
-For the last part of the project, I chose to create a morphing video of me growing up! These were images I selected 12 images from my birth year to the present year! Each image corresponds respectively to the years 2005, 2009, 2013, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
+For the last part of the project, I chose to create a morphing video of me growing up! I selected 12 images, ranging from my birth year to the present year! Each image corresponds respectively to the years 2005, 2009, 2013, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
 
 I cropped all the images to the same size and slightly rotated a couple of them for easier morphing. Here are the 12 cropped images:
-<img width="250" src="cam1.png">  <img width="250" src="cam2.png">  <img width="250" src="cam3.png">  <img width="250" src="cam4.png"> 
-<img width="250" src="cam5.png">  <img width="250" src="cam6.png">  <img width="250" src="cam7.png">  <img width="250" src="cam8.png"> 
-<img width="250" src="cam9.png">  <img width="250" src="cam10.png">  <img width="250" src="cam11.png">  <img width="250" src="cam12.png"> 
+<img width="150" src="cam1.png">  <img width="150" src="cam2.png">  <img width="150" src="cam3.png">  <img width="150" src="cam4.png"> <img width="150" src="cam5.png">  <img width="150" src="cam6.png">
+<img width="150" src="cam7.png">  <img width="150" src="cam8.png">  <img width="150" src="cam9.png">  <img width="150" src="cam10.png">  <img width="150" src="cam11.png">  <img width="150" src="cam12.png"> 
 
 
