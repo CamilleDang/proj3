@@ -25,14 +25,22 @@ The goal was then for each image, warp each image to the average shape, also sen
 3. Create a function to calculate the affine transformation matrix between a set of 3 original/'source' (x, y) points and 3 destination (x, y) points.
 Complete for both images:
 4. For each triangle in the midway triangles:
+   
   a. Find corresponding vertex coordinates for triangle in midway image.
+  
   b. Find corresponding vertex coordinates for triangle in original image.
+  
   c. Compute the affine transformation matrix between the vertex coordinates of original triangle and the vertex coordinates of midway triangle.
+  
   d. Compute the inverse of the affine transformation matrix, which will be used for inverse warping: using the vertex points from the midway triangle to find the corresponding vertex  points from the original triangle.
+  
   e. Grab all the points within the midway triangle, using skimage.draw.polygon.
+  
   f. Find the original points by multiplying the points found in part e with the inverse matrix found in part d (to ensure dimensions were right, I padded the points found in part e   with a column of ones)
+  
   g. Using scipy.interpolate.griddata and the 'nearest' method, interpolate the color from the original triangle to the corresponding location in the midway triangle.
-5. This should yield both images warped to the average shape!
+  
+6. This should yield both images warped to the average shape!
 
 | Me Warped to Average | Mother Warped to Average | 
 |:-------------------------:|:-------------------------:|
