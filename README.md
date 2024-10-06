@@ -26,7 +26,7 @@ The goal was then for each image, warp each image to the average shape, also sen
 Complete for both images:
 4. For each triangle in the midway triangles:
    
-        a. Find corresponding vertex coordinates for triangle in midway image.
+   a. Find corresponding vertex coordinates for triangle in midway image.
   
         b. Find corresponding vertex coordinates for triangle in original image.
   
