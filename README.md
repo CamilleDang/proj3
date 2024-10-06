@@ -40,7 +40,7 @@ Complete for both images:
   
    g. Using scipy.interpolate.griddata and the 'nearest' method, interpolate the color from the original triangle to the corresponding location in the midway triangle.
   
-6. This should yield both images warped to the average shape!
+5. This should yield both images warped to the average shape!
 
 | Mother Warped to Average | Me Warped to Average | 
 |:-------------------------:|:-------------------------:|
@@ -71,7 +71,29 @@ Using this function, I created a gif that shows the incremental morphs from my m
 
 # Part 4. The "Mean Face" of a Population
 
+1. Choosing Dataset & Processing Correspondence Points
 
+With the ability to now warp faces to find the average of two faces, I used this logic to compute the "mean face" of a population of people. I used the [FEI dataset](https://fei.edu.br/~cet/facedatabase.html), which came with correspondence points for each of 400 images (2 for each subject - one smiling and one neutral). 
+I first processed the datapoints, extracting the points from the corresponding files and storing them in npy files. I chose to work with the 200 **smiling** images.
+
+2. Computing the Average Points of the Population
+
+I then computed the average points of the population, using np.mean on all the correspondence points.
+
+3. Morph each of the faces in the dataset into the average shape.
+
+Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed each of the 200 images to the average shape, passing in the image, its correspondence points, and the average points calculated in part 2. Here are some examples, with the top images being the originals, and the bottom images being the corresponding image morphed to the average.
+
+| Individual 9 | Individual 51 | Individual 123 | Individual 187 | 
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="250" src="9b.jpg">  |  <img width="250" src="51b.jpg"> | <img width="250" src="123b.jpg"> | <img width="250" src="187.jpg"> |
+|<img width="250" src="pop_mid_9.png">  |  <img width="250" src="pop_mid_51.png"> | <img width="250" src="pop_mid_123.png"> | <img width="250" src="pop_mid_187.png"> |
+
+3. Computing the average face
+
+I then averaged all the images to find the average face of the 200 beautiful smiling individuals, shown below.
+
+<img width="250" src="3b.jpg"> 
 
 # Part 5. 
 
