@@ -14,7 +14,7 @@ I then computed the Delauney triangulation of the corresponding points (using sc
 
 | Me Triangulation | Mother Triangulation | 
 |:-------------------------:|:-------------------------:|
-|<img width="300" src="xgrad.jpg"> |  <img width="300" src="ygrad.jpg"> |
+|<img width="300" src="ma_delaunay.png"> |  <img width="300" src="cam_delaunay.png"> |
 
 #  Part 2. Computing the 'Midway' Face
 
@@ -44,13 +44,13 @@ Complete for both images:
 
 | Me Warped to Average | Mother Warped to Average | 
 |:-------------------------:|:-------------------------:|
-|<img width="300" src="xgrad.jpg"> |  <img width="300" src="ygrad.jpg"> |
+|<img width="300" src="output_image.png"> |  <img width="300" src="cam_interpolate.png"> |
 
 6. Average the two images to create the 'midway' face!
 
 | Me Original | Mother Original | Me + Mother 'Midway' |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="300" src="gradient.jpg">  |  <img width="300" src="edge.jpg"> | <img width="300" src="edge.jpg"> |
+|<img width="300" src="macrop2.png">  |  <img width="300" src="camcrop.jpg"> | <img width="300" src="edge.jpg"> |
 
 # Part 3. The Morph Sequence
 
