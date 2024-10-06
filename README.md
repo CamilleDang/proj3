@@ -115,7 +115,7 @@ I created caricatures of my face by using my previous morph function, and adjust
 
 | Warp_Frac = -1 | Warp_Frac = -0.5 | Warp_Frac = 0.5 | Warp_Frac = 1.5 | Warp_Frac = 2 |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="250" src="car-1.png"> |  <img width="200" src="car-0.5.png"> | <img width="200" src="car0.5png"> | <img width="200" src="car1.5.png"> | <img width="200" src="car2.0.png"> |
+|<img width="250" src="car-1.png"> |  <img width="200" src="car-0.5.png"> | <img width="200" src="car0.5.png"> | <img width="200" src="car1.5.png"> | <img width="200" src="car2.0.png"> |
 
 # Part 6. Bells and Whistles
 
