@@ -93,7 +93,7 @@ Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed ea
 
 I then averaged all the images to find the average face of the 200 beautiful smiling individuals!
 
-<img width="600" src="pop_avg.png"> 
+<img width="500" src="pop_avg.png"> 
 
 ##### Computing my face to the average geometry & the average face to my geometry
 
@@ -109,5 +109,15 @@ To compute my face to the average geometry, I simply used my previous `warp_from
 |:-------------------------:|:-------------------------:|
 |<img width="400" src="me_warped.png"> |  <img width="400" src="avg_warped.png"> |
 
-# Part 5. 
+# Part 5. Caricatures: Extrapolating from the Mean
+
+I created caricatures of my face by using my previous morph function, and adjusting the warp_frac, where a warp_frac of below 0 exaggerates my features and a warp_frac of above 1 exaggerates the mean population's features on my face. Below is a progression of caricatures with the corresponding warp_fracs of -1, -0.5, 0.5, 1.5, and 2, going from exaggerating my features to exaggerating the mean population's features. The middle represents the exact average between my face the average mean population.
+
+| Warp_Frac = -1 | Warp_Frac = -0.5 | Warp_Frac = 0.5 | Warp_Frac = 1.5 | Warp_Frac = 2 |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="250" src="car-1.png"> |  <img width="200" src="car-0.5.png"> | <img width="200" src="car0.5png"> | <img width="200" src="car1.5.png"> | <img width="200" src="car2.0.png"> |
+
+# Part 6. Bells and Whistles
+
+For the last part of the project, I chose to create a morphing video of me growing up! These were images I selected 12 images from my birth year to the present year! Each image corresponds respectively to the years 2005, 2009, 2013, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
 
