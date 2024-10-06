@@ -14,7 +14,7 @@ I then computed the Delauney triangulation of the corresponding points (using sc
 
 | Me Triangulation | Mother Triangulation | 
 |:-------------------------:|:-------------------------:|
-|<img width="300" src="ma_delaunay.png"> |  <img width="300" src="cam_delaunay.png"> |
+|<img width="300" src="cam_delaunay.png"> |  <img width="300" src="ma_delaunay.png"> |
 
 #  Part 2. Computing the 'Midway' Face
 
@@ -44,7 +44,7 @@ Complete for both images:
 
 | Me Warped to Average | Mother Warped to Average | 
 |:-------------------------:|:-------------------------:|
-|<img width="300" src="output_image.png"> |  <img width="300" src="cam_interpolate.png"> |
+|<img width="300" src="cam_interpolate.png"> |  <img width="300" src="output_image.png"> |
 
 6. Average the two images to create the 'midway' face!
 
