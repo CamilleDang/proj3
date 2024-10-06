@@ -50,7 +50,7 @@ Complete for both images:
 
 | Me Original | Mother Original | Me + Mother 'Midway' |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="300" src="macrop2.png">  |  <img width="300" src="camcrop.jpg"> | <img width="300" src="edge.jpg"> |
+|<img width="300" src="macrop2.png">  |  <img width="300" src="camcrop.jpg"> | <img width="300" src="morphed_test.png"> |
 
 # Part 3. The Morph Sequence
 
