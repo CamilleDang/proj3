@@ -1,4 +1,4 @@
-# Project 3: Face Morphing! :) 
+# Project 3: Face Morphing :) 
 
 Follow along with the code [here](https://github.com/CamilleDang/proj3).
 
