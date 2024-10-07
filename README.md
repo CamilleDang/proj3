@@ -143,4 +143,6 @@ Here is the resulting music video of this morph sequence to one of my favorite i
 
 I also collaborated with some of my classmates (Steven Luo, Clara Hung, David Martinez) to create this cool music video of us morphing into one another. We all jam to "Texas Techno" (the audio), so we stitched the morphing to the song.
 
-[![Group Transformation](rock.jpg)]((https://www.youtube.com/watch?v=OgBwQ1yH06E "Transformation!")
+*Click on the image to go to the Youtube video!*
+
+[![Group Transformation](rock.jpg)](https://www.youtube.com/watch?v=OgBwQ1yH06E "Transformation!")
