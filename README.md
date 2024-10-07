@@ -129,7 +129,9 @@ I cropped all the images to the same size and slightly rotated a couple of them 
 <img width="150" src="cam1.png">  <img width="150" src="cam2.png">  <img width="150" src="cam3.png">  <img width="150" src="cam4.png"> <img width="150" src="cam5.png">  <img width="150" src="cam6.png">
 <img width="150" src="cam7.png">  <img width="150" src="cam8.png">  <img width="150" src="cam9.png">  <img width="150" src="cam10.png">  <img width="150" src="cam11.png">  <img width="150" src="cam12.png"> 
 
-Here is a music video to one of my favorite instrumentals ever - "Growing Up" by Nate Blaze. How fitting!
+I then found the correspondence points for each of the images, and created a gif from the previous image to current image for all images except for the first. Then, I stitched all the gifs together to create a huge morph sequence. 
+
+Here is the resulting music video of this morph sequence to one of my favorite instrumentals ever - "Growing Up" by Nate Blaze. How fitting!
 
 *Click on baby me to go to the Youtube video!*
 
