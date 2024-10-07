@@ -82,7 +82,9 @@ I then computed the average points of the population, using np.mean on all the c
 
 ### Morph each of the faces in the dataset into the average shape.
 
-Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed each of the 200 images to the average shape, passing in the image, its correspondence points, and the average points calculated in the previous part. Here are some examples, with the top images being the originals, and the bottom images being the corresponding image morphed to the average.
+Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed each of the 200 images to the average shape, passing in the image, its correspondence points, and the average points calculated in the previous part. Here are some examples!
+
+The **top** images are the **original images**, and the **bottom** images are the **corresponding image morphed to the average**.
 
 | Individual 9 | Individual 51 | Individual 123 | Individual 187 | 
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
