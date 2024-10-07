@@ -71,16 +71,16 @@ Using this function, I created a gif that shows the incremental morphs from my m
 
 # Part 4. The "Mean Face" of a Population
 
-#### Choosing Dataset & Processing Correspondence Points
+### Choosing Dataset & Processing Correspondence Points
 
 With the ability to now warp faces to find the average of two faces, I used this logic to compute the "mean face" of a population of people. I used the [FEI dataset](https://fei.edu.br/~cet/facedatabase.html), which came with correspondence points for each of 400 images (2 for each subject - one smiling and one neutral). 
-I first processed the datapoints, extracting the points from the corresponding files and storing them in npy files. I chose to work with the 200 **smiling** images.
+I first processed the datapoints, extracting the points from the corresponding files and storing them in npy files. I also added the 4 corners to each of the points to get a better morphing result. I chose to work with the 200 **smiling** images.
 
-#### Computing the Average Points of the Population
+### Computing the Average Points of the Population
 
 I then computed the average points of the population, using np.mean on all the correspondence points.
 
-#### Morph each of the faces in the dataset into the average shape.
+### Morph each of the faces in the dataset into the average shape.
 
 Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed each of the 200 images to the average shape, passing in the image, its correspondence points, and the average points calculated in the previous part. Here are some examples, with the top images being the originals, and the bottom images being the corresponding image morphed to the average.
 
@@ -125,4 +125,7 @@ I cropped all the images to the same size and slightly rotated a couple of them 
 <img width="150" src="cam1.png">  <img width="150" src="cam2.png">  <img width="150" src="cam3.png">  <img width="150" src="cam4.png"> <img width="150" src="cam5.png">  <img width="150" src="cam6.png">
 <img width="150" src="cam7.png">  <img width="150" src="cam8.png">  <img width="150" src="cam9.png">  <img width="150" src="cam10.png">  <img width="150" src="cam11.png">  <img width="150" src="cam12.png"> 
 
-<img width="500" src="all_morph.gif"> 
+Here is a music video to one of my favorite instrumentals ever - "Growing Up" by Nate Blaze. How fitting!
+
+[![Camille Growing Up](cam1.png)]([https://youtu.be/StTqXEQ2l-Y?t=35s](https://www.youtube.com/shorts/qNRFlizloks) "Me Growing Up!")
+
