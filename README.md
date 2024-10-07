@@ -129,3 +129,5 @@ Here is a music video to one of my favorite instrumentals ever - "Growing Up" by
 
 [![Camille Growing Up](cam1.png)]([https://youtu.be/StTqXEQ2l-Y?t=35s](https://www.youtube.com/shorts/qNRFlizloks) "Me Growing Up!")
 
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
