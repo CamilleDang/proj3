@@ -1,7 +1,5 @@
 # Project 3: Face Morphing :)
 
-Follow along with the code [here](https://github.com/CamilleDang/proj3).
-
 #  Overview
 
 During this project, I morphed faces together by selecting correspondence points of important facial features, computing the Delauney triangulation of the points, and corresponding affine transformations, in order to successfuly warp the face structure and used cross-dissolving to interpolate corresponding colors. This allowed me to morph between images (ex: images of my mother and me, and me at different ages) as well as calculate the 'average face' of two images or of a population and exaggerate key features of an individual.
