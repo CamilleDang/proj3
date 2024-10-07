@@ -126,6 +126,7 @@ I cropped all the images to the same size and slightly rotated a couple of them 
 <img width="150" src="cam7.png">  <img width="150" src="cam8.png">  <img width="150" src="cam9.png">  <img width="150" src="cam10.png">  <img width="150" src="cam11.png">  <img width="150" src="cam12.png"> 
 
 Here is a music video to one of my favorite instrumentals ever - "Growing Up" by Nate Blaze. How fitting!
+*Click on baby me to go to the Youtube video!*
 
 [![Camille Growing Up](ytss.png)](https://www.youtube.com/shorts/qNRFlizloks "Me Growing Up!")
 
