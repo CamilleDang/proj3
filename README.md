@@ -127,7 +127,5 @@ I cropped all the images to the same size and slightly rotated a couple of them 
 
 Here is a music video to one of my favorite instrumentals ever - "Growing Up" by Nate Blaze. How fitting!
 
-[![Camille Growing Up](cam1.png)](https://www.youtube.com/shorts/qNRFlizloks "Me Growing Up!")
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Camille Growing Up](<img width="250" src="cam1.png">)](https://www.youtube.com/shorts/qNRFlizloks "Me Growing Up!")
 
