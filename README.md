@@ -145,4 +145,4 @@ I also collaborated with some of my classmates (Steven Luo, Clara Hung, David Ma
 
 *Click on the image to go to the Youtube video!*
 
-[![Group Transformation](rock.jpg)](https://www.youtube.com/watch?v=OgBwQ1yH06E "Transformation!")
+[![Group Transformation](squad.png)](https://www.youtube.com/watch?v=OgBwQ1yH06E "Transformation!")
