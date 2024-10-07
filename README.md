@@ -91,13 +91,15 @@ The **top** images are the **original images**, and the **bottom** images are th
 |<img width="250" src="9b.jpg">  |  <img width="250" src="51b.jpg"> | <img width="250" src="123b.jpg"> | <img width="250" src="187b.jpg"> |
 |<img width="250" src="pop_mid_9.png">  |  <img width="250" src="pop_mid_51.png"> | <img width="250" src="pop_mid_123.png"> | <img width="250" src="pop_mid_187.png"> |
 
-##### Computing the average face
+#### Computing the average face
 
-I then averaged all the images to find the average face of the 200 beautiful smiling individuals!
+I then averaged all the images to find the average face of the 200 smiling individuals!
 
 <img width="500" src="pop_avg.png"> 
 
-##### Computing my face to the average geometry & the average face to my geometry
+How gorgeous!
+
+#### Computing my face to the average geometry & the average face to my geometry
 
 In order to compute my face to the average geometry, I had to recrop my image to the size of the FEI images and also replot correspondence points according to how the FEI dataset plotted theirs. I first annotated the average image and the points with the number of ordering, and then used a similar plotting on my own image. 
 
