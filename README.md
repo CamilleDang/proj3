@@ -1,6 +1,6 @@
 # Project 3: Face Morphing! :) 
 
-Follow along with the code [here](https://github.com/CamilleDang/proj3)!
+Follow along with the code [here](https://github.com/CamilleDang/proj3).
 
 #  Overview
 
@@ -8,7 +8,7 @@ During this project, I morphed faces together by selecting correspondence points
 
 #  Part 1. Defining Correspondences
 
-I chose to morph between my mother and me! 
+I chose to morph between my mother and me.
 In order to do this, I first selected two images of us in similar positions and cropped them to be the same size. I then selected 60 correspondence points at key feature points (facial features such as eyes, nose, mouth, rim of face, rim of hair + 4 points at each corner of the image), using matplotlib and ginput, and stored each mouse click in an array of points, with a button press indicating the end.
 I then computed the Delauney triangulation of the corresponding points (using `scipy.spatial.Delaunay`), which enabled triangle-to-triangle correspondences for both images.
 
@@ -40,13 +40,13 @@ Complete for both images:
   
    g. Using scipy.interpolate.griddata and the 'nearest' method, interpolate the color from the original triangle to the corresponding location in the midway triangle.
   
-5. This should yield both images warped to the average shape!
+5. This should yield both images warped to the average shape.
 
 | Mother Warped to Average | Me Warped to Average | 
 |:-------------------------:|:-------------------------:|
 |<img width="400" src="output_image.png"> |  <img width="400" src="cam_interpolate.png"> |
 
-6. Average the two images to create the 'midway' face by cross-dissolving the two images like such: `(1 - frac) * im1 + frac * im2`, with frac being 0.5
+6. Average the two images to create the 'midway' face by cross-dissolving the two images like such: `(1 - frac) * im1 + frac * im2`, with frac being 0.5.
 
 | Mother Original | Me Original | Mother & Me 'Midway' |
 |:-------------------------:|:-------------------------:|:-------------------------:|
@@ -82,7 +82,7 @@ I then computed the average points of the population, using np.mean on all the c
 
 ### Morph each of the faces in the dataset into the average shape.
 
-Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed each of the 200 images to the average shape, passing in the image, its correspondence points, and the average points calculated in the previous part. Here are some examples!
+Using the previous `warp_from_avg(im1, im1_pts, avg_pts)` function, I morphed each of the 200 images to the average shape, passing in the image, its correspondence points, and the average points calculated in the previous part. Here are some examples.
 
 The **top** images are the **original images**, and the **bottom** images are the **corresponding image morphed to the average**.
 
@@ -93,11 +93,11 @@ The **top** images are the **original images**, and the **bottom** images are th
 
 #### Computing the average face
 
-I then averaged all the images to find the average face of the 200 smiling individuals!
+I then averaged all the images to find the average face of the 200 smiling individuals.
 
 <img width="500" src="pop_avg.png"> 
 
-How gorgeous!
+How gorgeous! 
 
 #### Computing my face to the average geometry & the average face to my geometry
 
@@ -123,7 +123,7 @@ I created caricatures of my face by using my previous morph function, and adjust
 
 # Part 6. Bells and Whistles
 
-For the last part of the project, I chose to create a morphing video of me growing up! I selected 12 images, ranging from my birth year to the present year! Each image corresponds respectively to the years 2005, 2009, 2013, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
+For the last part of the project, I chose to create a morphing video of me growing up. I selected 12 images, ranging from my birth year to the present year! Each image corresponds respectively to the years 2005, 2009, 2013, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
 
 I cropped all the images to the same size and slightly rotated a couple of them for easier morphing. Here are the 12 cropped images:
 <img width="150" src="cam1.png">  <img width="150" src="cam2.png">  <img width="150" src="cam3.png">  <img width="150" src="cam4.png"> <img width="150" src="cam5.png">  <img width="150" src="cam6.png">
@@ -131,7 +131,7 @@ I cropped all the images to the same size and slightly rotated a couple of them 
 
 I then found the correspondence points for each of the images, and created a gif from the previous image to current image for all images except for the first. Then, I stitched all the gifs together to create a huge morph sequence. 
 
-Here is the resulting music video of this morph sequence to one of my favorite instrumentals ever - "Growing Up" by Nate Blaze. How fitting!
+Here is the resulting music video of this morph sequence to one of my favorite instrumentals - "Growing Up" by Nate Blaze. How fitting!
 
 *Click on baby me to go to the Youtube video!*
 
