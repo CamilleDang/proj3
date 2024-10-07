@@ -123,6 +123,8 @@ I created caricatures of my face by using my previous morph function, and adjust
 
 # Part 6. Bells and Whistles
 
+**Me Growing Up**
+
 For the last part of the project, I chose to create a morphing video of me growing up. I selected 12 images, ranging from my birth year to the present year. Each image corresponds respectively to the years 2005, 2009, 2013, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, and 2024.
 
 I cropped all the images to the same size and slightly rotated a couple of them for easier morphing. Here are the 12 cropped images:
@@ -137,3 +139,8 @@ Here is the resulting music video of this morph sequence to one of my favorite i
 
 [![Camille Growing Up](ytss.png)](https://www.youtube.com/shorts/qNRFlizloks "Me Growing Up!")
 
+**Class Music Video**
+
+I also collaborated with some of my classmates (Steven Luo, Clara Hung, David Martinez) to create this cool music video of us morphing into one another. We all jam to "Texas Techno" (the audio), so we stitched the morphing to the song.
+
+[![Group Transformation](rock.jpg)]((https://www.youtube.com/watch?v=OgBwQ1yH06E "Transformation!")
