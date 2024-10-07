@@ -111,7 +111,7 @@ To compute my face to the average geometry, I simply used my previous `warp_from
 
 | My Face to Average Geometry | Average Face to My Geometry | 
 |:-------------------------:|:-------------------------:|
-|<img width="400" src="me_warped.png"> |  <img width="400" src="avg_warped.png"> |
+|<img width="300" src="me_warped.png"> |  <img width="300" src="avg_warped.png"> |
 
 # Part 5. Caricatures: Extrapolating from the Mean
 
